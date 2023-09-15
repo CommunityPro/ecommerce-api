@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["DOM", "ESNext", "ES2016"],
+		"module": "commonjs",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+
+		/* Bundler mode*/
+		"resolveJsonModule": true,
+		"outDir": "./dist",
+		"allowJs": true,
+		"rootDir": ".",
+		"baseUrl": ".",
+
+		/* Linting */
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"useDefineForClassFields": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
