@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap");
+
+:root {
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+
+	--primary: #1e2746;
+	--secondary: #f9b536;
+	--button: #1b41b2;
+	--gray: #737b85;
+	--error: #fc3d31;
+	--success: #55de32;
+	--body-font: "Maven Pro", sans-serif;
+}
+
+/* removes scrollbar */
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Maven Pro", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	overflow-x: hidden;
+}
