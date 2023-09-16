@@ -44,7 +44,7 @@ git commit -m "commit message"
 ### 📌 Step 6
 Push back to your repo
 ```sh
-git push
+git push origin main
 ```
 
 ### 📌 Step 8
@@ -52,11 +52,13 @@ Create a PR on Github. (Don't just hit the create a pull request button, you mus
 
 ### Note:
 
+> - Make sure your local branch is always up to date before pushing or making a PR.
 > - Branch name should reflect what you're working on
 > - Do not edit/delete someone else's code in this repository. You can only insert new files/folder in this repository.
 > - Do not make any changes to the config files.
 > - Fix linting changes before committing.  
 > - Give a meaningful name to whatever file or folder you are adding.
+> - Raise issues for bugs, don't fix them outrightly.
 
 ## What should I keep in mind while contributing? 💡
 - When you are contributing, make sure that the work is entirely your own and not from some other source.
