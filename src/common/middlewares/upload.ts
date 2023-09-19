@@ -15,7 +15,7 @@ const checkFileType = (file:any, cb:Function) => {
     cb("Error: Only images are allowed!");
   };
 
-  const fileFilter =  (req:Request, file:any, cb:Function) => {
+  const fileFilter =  (_req:Request, file:any, cb:Function) => {
     checkFileType(file, cb);
   }
 
