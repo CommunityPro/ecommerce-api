@@ -22,9 +22,9 @@
 		"test": "jest --coverage",
 		"copy-assets": "copyfiles --all --up 1 --exclude \"./**/*.{ts,tsx}\" \"./src/**/*\" ./dist/src/",
 		"compile": "rimraf dist && npx tsc",
-		"predev": "npm run build",
+		"predev": "pnpm run build",
 		"dev": "concurrently  \"npx tsc --watch\" \"nodemon -q dist/src/index.js\"",
-		"build": "npm run compile && npm run copy-assets",
+		"build": "pnpm run compile && pnpm run copy-assets",
 		"start": "node dist/src/index.js",
 		"prepare": "husky install"
 	},

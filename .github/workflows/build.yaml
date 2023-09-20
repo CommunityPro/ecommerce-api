@@ -19,7 +19,7 @@ jobs:
       node-version: 16
 
    - name: install-deps
-     run: npm install
+     run: pnpm install
 
    - name: build
-     run: npm run build
+     run: pnpm run build
