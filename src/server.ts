@@ -75,6 +75,8 @@ const App = () => {
 		res.send({ message: "Welcome to eCommerce API" })
 	)
 
+	app.use(API_URL, router)
+
 	return app
 }
 
