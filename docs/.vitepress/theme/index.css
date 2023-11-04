@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+	--vp-c-brand: #ffcd42;
+	--vp-c-brand-light: #ffd96f;
+	--vp-c-brand-lighter: #f3da95;
+	--vp-c-brand-dark: #d4a421;
+	--vp-c-brand-darker: #977108;
+
+	--vp-c-sponsor: #3eaf7c;
+
+	/* Typography */
+	--vp-font-family-base: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+	/* Code Snippet font */
+	--vp-font-family-mono: "JetBrains Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+}

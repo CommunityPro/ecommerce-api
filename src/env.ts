@@ -1,4 +1,13 @@
-const requiredServerEnvs = ["PORT", "MONGO_URI", "APP_VERSION"] as const
+const requiredServerEnvs = [
+	"APP_VERSION",
+	"CLOUDINARY_NAME",
+	"CLOUDINARY_KEY",
+	"CLOUDINARY_SECRET",
+	"JWT_SECRET",
+	"MONGO_URI",
+	"NODE_ENV",
+	"PORT",
+] as const
 
 type RequiredServerEnvKeys = (typeof requiredServerEnvs)[number]
 
