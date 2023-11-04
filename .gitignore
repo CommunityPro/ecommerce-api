@@ -29,5 +29,4 @@ coverage
 .env.*
 
 # vitepress
-docs/.vitepress/dist
 docs/.vitepress/cache
