@@ -8,8 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 .elasticbeanstalk/
 node_modules
-dist
-dist-ssr
 build
 build-ssr
 *.local
