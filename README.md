@@ -17,8 +17,9 @@ Visit [here]() to view full documentation
 - Victor Eke ([@Evavic44](https://github.com/evavic44))
 - Franklin Ohaegbulam ([@frankiefab100](https://github.com/frankiefab100))
 - Benjamin Thorpe ([@sparrowsl](https://github.com/sparrowsl))
-- William Samuel ([@williamssam](https://github.com/williamssam))
+- Williams Samuel ([@williamssam](https://github.com/williamssam))
 - Omololu Jumat ([@Jummate](https://github.com/Jummate))
+- Samson Okunola ([@pablo-clueless](https://github.com/pablo-clueless))
 
 ## Contributing
 
