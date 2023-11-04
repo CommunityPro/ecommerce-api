@@ -8,7 +8,7 @@ Before you begin, ensure you have the following prerequisites in place:
 
 - **Access to eCommerce API:** To access our API, you need to sign up for an account on our platform.
 
-- **API Key:** You'll need an API key to make authenticated requests. You can obtain your API key by [following these steps](/guide/auth.md).
+- **API Key:** You'll need an API key to make authenticated requests. You can obtain your API key by [following these steps](./guide/auth.md).
 
 - **HTTP Client:** We recommend using a tool like [Postman](https://www.postman.com/downloads/) for sending HTTP requests.
 
@@ -19,7 +19,7 @@ Before you begin, ensure you have the following prerequisites in place:
    - **Key:** `Authorization`
    - **Value:** `Bearer YOUR_API_KEY`
 
-2. **Select an Endpoint:** Choose an endpoint from our [API documentation](/guide) to interact with. For example, you can start by fetching a list of products.
+2. **Select an Endpoint:** Choose an endpoint from our [API documentation](./guide/) to interact with. For example, you can start by fetching a list of products.
 
 3. **Send the Request:** Use your HTTP client to send a GET request to the selected endpoint. You can explore various query parameters to customize your request further.
 
@@ -39,7 +39,7 @@ Once you've made your first request and received a successful response, you can 
 
 ## Documentation and Support
 
-For detailed information about endpoints, request parameters, and response data, refer to our [comprehensive API documentation](guide).
+For detailed information about endpoints, request parameters, and response data, refer to our [comprehensive API documentation](./guide/).
 
 If you encounter any issues, have questions, or need assistance, our support team is here to help. Feel free to reach out to [support@email.com](mailto:communitypro47@gmail.com).
 
