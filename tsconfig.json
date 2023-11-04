@@ -8,7 +8,7 @@
 
 		/* Bundler mode*/
 		"resolveJsonModule": true,
-		"outDir": "./dist",
+		"outDir": "./build",
 		"allowJs": true,
 		"rootDir": ".",
 		"baseUrl": ".",
@@ -22,5 +22,5 @@
 		"forceConsistentCasingInFileNames": true
 	},
 	"include": ["src/**/*", "src/__test__"],
-	"exclude": ["node_modules", "./coverage", "./dist", "__tests__", "jest.config.js"]
+	"exclude": ["node_modules", "./coverage", "./build", "__tests__", "jest.config.js"]
 }
