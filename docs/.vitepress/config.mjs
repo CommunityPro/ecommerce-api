@@ -25,13 +25,14 @@ export default defineConfig({
 					{ text: "Products", link: "/guide/products" },
 					{ text: "Categories", link: "/guide/categories" },
 					{ text: "Cart", link: "/guide/cart" },
-					{ text: "Users", link: "/guide/users" },
+					{ text: "Customers", link: "/guide/customers" },
 					{ text: "Error Handling", link: "/guide/error" },
 				],
 			},
 			{ text: "Rate limiting", link: "/rate-limiting" },
 			{ text: "Changelog", link: "/changelogs" },
 			{ text: "Terms & Conditions", link: "/policy" },
+			{ text: "Contributors", link: "/contributors" },
 		],
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/CommunityPro/ecommerce-api" },
@@ -42,4 +43,5 @@ export default defineConfig({
 			message: "Released under the MIT License.",
 		},
 	},
+	head: [["link", { rel: "icon", href: "/favicon.png" }]],
 })
