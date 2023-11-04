@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,Q as i}from"./chunks/framework.edbfdbf1.js";const p=JSON.parse('{"title":"Terms and Conditions","description":"","frontmatter":{},"headers":[],"relativePath":"policy.md","filePath":"policy.md"}'),o={name:"policy.md"},r=i("",7),s=[r];function n(l,h,d,c,m,_){return e(),t("div",null,s)}const f=a(o,[["render",n]]);export{p as __pageData,f as default};
