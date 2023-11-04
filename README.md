@@ -1,6 +1,6 @@
 # <p align="center">ECommerce API</p>
 
-![CommunityPro](https://img.shields.io/badge/❤️_Made_by_CommunityPro-%20-yellow?style=for-the-badge&logo=) ![GitHub](https://img.shields.io/github/license/CommunityPro/ecommerce-api?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/CommunityPro/ecommerce-api?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/CommunityPro/ecommerce-api?style=for-the-badge)
+![CommunityPro](https://img.shields.io/badge/❤️_Made_by_CommunityPro-%20-FFCD42?style=for-the-badge&labelColor=FFCD42) ![GitHub](https://img.shields.io/github/license/CommunityPro/ecommerce-api?style=for-the-badge&color=FFCD42&labelColor=1D1E22) ![GitHub Repo stars](https://img.shields.io/github/stars/CommunityPro/ecommerce-api?style=for-the-badge&color=FFCD42&labelColor=1D1E22) ![GitHub forks](https://img.shields.io/github/forks/CommunityPro/ecommerce-api?style=for-the-badge&color=FFCD42&labelColor=1D1E22) ![GitHub contributors (via allcontributors.org)](https://img.shields.io/github/all-contributors/CommunityPro/ecommerce-api?style=for-the-badge&color=FFCD42&labelColor=1D1E22)
 
 A RESTful API for building e-commerce applications using Node.js, Express and MongoDB.
 
@@ -17,9 +17,8 @@ Visit [here]() to view full documentation
 - Victor Eke ([@Evavic44](https://github.com/evavic44))
 - Franklin Ohaegbulam ([@frankiefab100](https://github.com/frankiefab100))
 - Benjamin Thorpe ([@sparrowsl](https://github.com/sparrowsl))
-- Williams Samuel ([@williamssam](https://github.com/williamssam))
+- William Samuel ([@williamssam](https://github.com/williamssam))
 - Omololu Jumat ([@Jummate](https://github.com/Jummate))
-- Samson Okunola ([@pablo-clueless](https://github.com/pablo-clueless))
 
 ## Contributing
 
