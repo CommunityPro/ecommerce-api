@@ -27,3 +27,7 @@ coverage
 # variables
 .env
 .env.*
+
+# vitepress
+docs/.vitepress/dist
+docs/.vitepress/cache
