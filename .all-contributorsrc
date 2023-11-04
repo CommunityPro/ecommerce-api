@@ -11,42 +11,42 @@
 			"name": "Victor Eke",
 			"avatar_url": "https://avatars.githubusercontent.com/u/62628408?v=4",
 			"profile": "http://github.com/Evavic44",
-			"contributions": []
+			"contributions": ["code", "advisor"]
 		},
 		{
 			"login": "frankiefab100",
 			"name": "Franklin Ohaegbulam",
 			"avatar_url": "https://avatars.githubusercontent.com/u/46662771?v=4",
 			"profile": "https://github.com/frankiefab100",
-			"contributions": []
+			"contributions": ["code"]
 		},
 		{
 			"login": "sparrowsl",
 			"name": "Benjamin Thorpe",
 			"avatar_url": "https://avatars.githubusercontent.com/u/61359802?v=4",
 			"profile": "https://github.com/sparrowsl",
-			"contributions": []
+			"contributions": ["code"]
 		},
 		{
 			"login": "williamssam",
 			"name": "Williams Samuel",
 			"avatar_url": "https://avatars.githubusercontent.com/u/68322437?v=4",
 			"profile": "https://github.com/williamssam",
-			"contributions": []
+			"contributions": ["code"]
 		},
 		{
 			"login": "Jummate",
 			"name": "Omololu Jumat",
 			"avatar_url": "https://avatars.githubusercontent.com/u/40699198?v=4",
 			"profile": "https://github.com/Jummate",
-			"contributions": []
+			"contributions": ["code"]
 		},
 		{
 			"login": "pablo-clueless",
 			"name": "Samson Okunola",
 			"avatar_url": "https://avatars.githubusercontent.com/u/68032187?v=4",
 			"profile": "http://github.com/pablo-clueless",
-			"contributions": []
+			"contributions": ["code", "docs"]
 		}
 	],
 	"repoType": "github",
