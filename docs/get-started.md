@@ -1,4 +1,4 @@
-# Getting Started with eCommerce API
+# Getting Started
 
 Welcome to eCommerce API, the perfect solution for testing and developing your eCommerce applications. This guide will help you quickly get started with our API and explore its features.
 
