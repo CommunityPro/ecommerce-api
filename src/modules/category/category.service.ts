@@ -102,7 +102,7 @@ const FetchCategories = async (query: PaginateDto) => {
 			page: Number(page),
 			selectedFields: ["-_v"],
 		}
-		const categories = await getPaginatedRecords(paginate, {})
+		const categories = await getPaginatedRecords(paginate, { specifiedLimit: Number(limit) })
 		response = {
 			error: false,
 			message: "Categories retrieved!",

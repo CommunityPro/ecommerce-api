@@ -126,7 +126,7 @@ const FetchProducts = async (query: PaginateDto) => {
 			page: Number(page),
 			selectedFields: ["-_v"],
 		}
-		const products = await getPaginatedRecords(paginate, {})
+		const products = await getPaginatedRecords(paginate, { specifiedLimit: Number(limit) })
 		response = {
 			error: false,
 			message: "Products retrieved!",
