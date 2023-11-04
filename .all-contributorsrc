@@ -1,0 +1,55 @@
+{
+	"projectName": "ecommerce-api",
+	"projectOwner": "CommunityPro",
+	"files": ["README.md", "CONTRIBUTING.md"],
+	"imageSize": 120,
+	"contributorsPerLine": 6,
+	"commit": true,
+	"contributors": [
+		{
+			"login": "Evavic44",
+			"name": "Victor Eke",
+			"avatar_url": "https://avatars.githubusercontent.com/u/62628408?v=4",
+			"profile": "http://github.com/Evavic44",
+			"contributions": []
+		},
+		{
+			"login": "frankiefab100",
+			"name": "Franklin Ohaegbulam",
+			"avatar_url": "https://avatars.githubusercontent.com/u/46662771?v=4",
+			"profile": "https://github.com/frankiefab100",
+			"contributions": []
+		},
+		{
+			"login": "sparrowsl",
+			"name": "Benjamin Thorpe",
+			"avatar_url": "https://avatars.githubusercontent.com/u/61359802?v=4",
+			"profile": "https://github.com/sparrowsl",
+			"contributions": []
+		},
+		{
+			"login": "williamssam",
+			"name": "Williams Samuel",
+			"avatar_url": "https://avatars.githubusercontent.com/u/68322437?v=4",
+			"profile": "https://github.com/williamssam",
+			"contributions": []
+		},
+		{
+			"login": "Jummate",
+			"name": "Omololu Jumat",
+			"avatar_url": "https://avatars.githubusercontent.com/u/40699198?v=4",
+			"profile": "https://github.com/Jummate",
+			"contributions": []
+		},
+		{
+			"login": "pablo-clueless",
+			"name": "Samson Okunola",
+			"avatar_url": "https://avatars.githubusercontent.com/u/68032187?v=4",
+			"profile": "http://github.com/pablo-clueless",
+			"contributions": []
+		}
+	],
+	"repoType": "github",
+	"repoHost": "https://github.com",
+	"skipCi": true
+}

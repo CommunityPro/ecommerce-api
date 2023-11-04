@@ -8,6 +8,32 @@
 			"url": "https://opensource.org/license/mit/"
 		}
 	],
+	"contributors": [
+		{
+			"name": "Victor Eke",
+			"url": "https://github.com/Evavic44"
+		},
+		{
+			"name": "Franklin Ohaegbulam",
+			"url": "https://github.com/frankiefab100"
+		},
+		{
+			"name": "Benjamin Thorpe",
+			"url": "https://github.com/sparrowsl"
+		},
+		{
+			"name": "Williams Samuel",
+			"url": "https://github.com/williamssam"
+		},
+		{
+			"name": "Omololu Jumat",
+			"url": "https://github.com/Jummate"
+		},
+		{
+			"name": "Samson Okunola",
+			"url": "https://github.com/pablo-clueless"
+		}
+	],
 	"main": "index.js",
 	"scripts": {
 		"docs:dev": "vitepress dev docs",
@@ -21,7 +47,7 @@
 		"compile": "rimraf dist && npx tsc",
 		"predev": "npm run dist",
 		"dev": "concurrently \"npm run docs:build\" \"npx tsc --watch\" \"nodemon -q dist/src/index.js\"",
-		"build": "npm run compile && npm run copy-assets",
+		"build": "npm run docs:build && npm run compile && npm run copy-assets",
 		"start": "node dist/src/index.js",
 		"prepare": "husky install",
 		"docs:preview": "vitepress preview docs"
