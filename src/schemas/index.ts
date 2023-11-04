@@ -1,5 +1,6 @@
-import CategoryModel from "./categories"
-import ProductModel from "./product"
-import VariantModel from "./variants"
+import Category from "./categories"
+import Variant from "./variants"
+import Product from "./product"
+import User from "./user"
 
-export { CategoryModel, ProductModel, VariantModel }
+export { Category, Product, User, Variant }

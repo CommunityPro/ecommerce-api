@@ -1,3 +1,4 @@
+import mongoose from "mongoose"
 import dotenv from "dotenv"
 import http from "http"
 
@@ -9,7 +10,11 @@ dotenv.config()
 const app = App()
 const server = http.createServer(app)
 
-// !TODO: create mongoose connection here
+mongoose.connect(KEYS.mongo_uri)
+mongoose.set("strictQuery", false)
+const db = mongoose.connection
+db.once("open", () => console.log("Connected to MongoDB"))
+db.on("error", console.error.bind(console, "connection error: "))
 
 const port = process.env.PORT || KEYS.port
 server.listen(port, () => console.log(`App is running on port ${port}`))

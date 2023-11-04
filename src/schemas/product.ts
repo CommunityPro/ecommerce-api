@@ -14,7 +14,7 @@ export interface ProductDocument extends mongoose.Document {
 	quantity: number
 	price: number
 	assets: Assets[]
-	categories: CategoryDocument["id"][] // one product may fall under more than one category.
+	categories: CategoryDocument["id"]
 	variants: VariantDocument["_id"][]
 	created_at: Date
 	updated_at: Date
@@ -31,13 +31,12 @@ const productModel = new mongoose.Schema(
 		description: { type: String, default: "" },
 		price: { type: Number, required: true },
 		quantity: { type: Number, default: 0 },
-		categories: [
-			{
-				type: mongoose.Schema.Types.ObjectId,
-				ref: "Category",
-				required: [true, "Product must belong to a category"],
-			},
-		],
+		categories: {
+			type: mongoose.Schema.Types.ObjectId,
+			ref: "Category",
+			required: [true, "Product must belong to a category"],
+		},
+
 		assets: [
 			{
 				url: String,
@@ -58,6 +57,6 @@ const productModel = new mongoose.Schema(
 	}
 )
 
-const ProductModel = mongoose.model<ProductDocument>("Product", productModel)
+const Product = mongoose.model<ProductDocument>("Product", productModel)
 
-export default ProductModel
+export default Product
