@@ -16,8 +16,8 @@ Before you begin, ensure you have the following prerequisites in place:
 
 1. **Authentication:** To authenticate your requests, include your API key in the request headers. Add a header with the following key-value pair:
 
-   - **Key:** `Authorization`
-   - **Value:** `Bearer YOUR_API_KEY`
+   - **Key:** `Api-Key`
+   - **Value:** `YOUR_API_KEY`
 
 2. **Select an Endpoint:** Choose an endpoint from our [API documentation](./guide/) to interact with. For example, you can start by fetching a list of products.
 

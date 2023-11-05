@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from "uuid"
 import validator from "validator"
 import bcrypt from "bcrypt"
 
@@ -48,6 +49,7 @@ const Signup = async (payload: SignupDto) => {
 			name,
 			password: hashedPassword,
 			avatar: url,
+			api_key: uuidv4(),
 		})
 		if (!user) {
 			response = {
