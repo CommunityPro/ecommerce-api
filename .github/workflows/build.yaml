@@ -3,7 +3,7 @@ name: build-check
 on:
  pull_request:
   branches:
-   - main
+   - dev
 
 jobs:
  build:
