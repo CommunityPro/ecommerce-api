@@ -1,5 +1,5 @@
-import authorization from "./authorize"
+import rateLimiter from "./rate-limiter"
+import authorize from "./auth"
 import upload from "./upload"
-import verifyAuthToken from "./auth"
 
-export { authorization, upload, verifyAuthToken }
+export { authorize, rateLimiter, upload }

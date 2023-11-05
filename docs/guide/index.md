@@ -2,7 +2,7 @@
 
 ## Overview
 
-This page contains documentation to help guide users through common workflows and tasks when using the CommunityPro eCommerce API. This guide will help you understand the API specifications, endpoints, and the functionalities it offers. Download the [Postman Collection](https://www.postman.com/) collection for testing
+This page contains documentation to help guide users through common workflows and tasks when using the CommunityPro eCommerce API. This guide will help you understand the API specifications, endpoints, and the functionalities it offers. Download the [Postman Collection](https://www.postman.com/) collection for testing.
 
 ## Version History
 
