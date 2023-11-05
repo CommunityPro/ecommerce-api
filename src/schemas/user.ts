@@ -6,6 +6,7 @@ export interface UserDocument extends mongoose.Document {
 	name: string
 	email: string
 	password: string
+	api_key: string
 	avatar: string
 	created_at: Date
 	updated_at: Date
@@ -22,6 +23,7 @@ const userModel = new mongoose.Schema<UserDocument>(
 		},
 		password: { type: String, validate: (value: string) => validator.isStrongPassword(value) },
 		avatar: { type: String },
+		api_key: { type: String, unique: true },
 	},
 	{
 		timestamps: {
