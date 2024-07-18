@@ -25,3 +25,7 @@ dist-ssr
 
 # variables
 .env
+
+pnpm-lock.yaml
+.github/*
+.husky/*

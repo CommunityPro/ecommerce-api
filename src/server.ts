@@ -1,7 +1,6 @@
 import express, { Express, NextFunction, Request, Response, Router } from "express"
 import morgan from "morgan"
 import cors from "cors"
-import path from "path"
 
 import { HTTP, RESPONSE } from "./common/constants"
 import { createError } from "./common/helpers"
@@ -66,8 +65,6 @@ const App = () => {
 			...(process.env.NODE_ENV === "development" && { stack: error.stack }),
 		})
 	})
-
-	app.use("/", express.static(path.join(__dirname, "../../docs/.vitepress/dist/")))
 
 	const API_URL = `/api/${KEYS.app_version}`
 
