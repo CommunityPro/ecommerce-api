@@ -20,7 +20,7 @@ jobs:
       node-version: 20
 
    - name: install pnpm
-     run: npm install - pnpm
+     run: npm install -g pnpm
 
    - name: install-deps
      run: pnpm install
