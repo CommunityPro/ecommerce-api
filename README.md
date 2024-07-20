@@ -6,11 +6,11 @@ A RESTful API for building e-commerce applications using Node.js, Express and Mo
 
 ## Get started
 
-Visit [here](https://ecommerce-api-8ptm.onrender.com/get-started.html) to get started
+Visit [here]() to get started
 
 ## Get started
 
-Visit [here](https://ecommerce-api-8ptm.onrender.com/) to view full documentation
+Visit [here]() to view full documentation
 
 ## Contributors
 

@@ -1,7 +1,7 @@
 import { Router } from "express"
 
 import { fetchProductController, fetchProductsController } from "./product.controller"
-import { authorize } from "src/common/middlewares"
+import { authorize } from "../../common/middlewares"
 
 const router = Router()
 

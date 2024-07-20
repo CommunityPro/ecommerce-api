@@ -1,7 +1,7 @@
 import { Router } from "express"
 
 import { fetchCategoriesController, fetchCategoryController } from "./category.controller"
-import { authorize } from "src/common/middlewares"
+import { authorize } from "../../common/middlewares"
 
 const router = Router()
 
