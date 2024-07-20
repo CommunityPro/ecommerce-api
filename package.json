@@ -46,7 +46,9 @@
 		"dev": "nodemon",
 		"build": "rimraf build && npx tsc",
 		"start": "node build/src/index.js",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"docs:preview": "vitepress preview docs",
+		"preinstall": "npx only-allow pnpm --yes"
 	},
 	"husky": {
 		"hooks": {
